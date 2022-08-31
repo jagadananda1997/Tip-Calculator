@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <div class="container">
+        <h1>Tip Calculator</h1>
+        <label for="">Bill Amount</label><br>
+        <input type="text" name="text" id="bill_amount" placeholder="Enter Bill Amount" required>
+        <br>
+        <br>
+        <label for="">Tip Percentage</label><br>
+        <input type="text" name="text" id="percentage" placeholder="Enter Tip Percentage" required>
+        <br>
+        <br>
+        <label for="">Tip Amount</label><br>
+        <input type="text" name="text" id="tip_amount" disabled>
+        <br>
+        <br>
+        <label for="">Total Bill</label><br>
+        <input type="text" name="text" id="bill" disabled>
+        <br>
+        <br>
+        <button id="btn" onclick="calculate()">Calculate</button>
+    </div>
+</main>
+<script src="logic.js"></script>
+</body>
+</html>

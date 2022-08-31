@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+   height: 100vh;
+   background: linear-gradient(225deg,#e91e63,#03a9f4);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.container{
+    height: auto;
+    width: 40%;
+    background-color: #00cec9;
+    padding: 5%;
+    box-shadow: 1px 1px 15px 3px #2d3436;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+h1{
+    margin-bottom: 5%;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#percentage, #bill_amount{
+text-align: center;
+}
+
+label{
+    margin-top: 30px;
+   
+}
+
+input{
+    /* width: 400px; */
+    width: 100%;
+    padding: 5% 0;
+    border-radius: 8px;
+}
+
+#btn{
+    width: 100%;
+    border-radius: 10px;
+    padding: 5% 15%;
+    font-size: 0.8rem;
+    border:none;
+    color: black;
+    background: #00b894;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 24px;
+    }
+}
